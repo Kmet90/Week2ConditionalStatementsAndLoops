@@ -13,7 +13,8 @@ namespace _34CheckPrimeNumber
             int n = int.Parse(Console.ReadLine());
             bool isPrime = true;
 
-            if (n < 2) Console.WriteLine("Not prime");
+            if (n < 2)
+                Console.WriteLine("Not prime");
             else
             {
 
